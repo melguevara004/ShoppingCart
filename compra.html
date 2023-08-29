@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina</title>
+    <link rel="stylesheet" href="stylecarrito.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#foot">Contacto</a></li>
+                </ul>
+            </nav>
+            <img src="images/relleno.png" id="img-carrito" alt="carrito">
+        </div>
+    </header>
+
+    <div class="header-content container">
+        <h2>Confirma tu compra</h2>
+        <p id="ubicacion"></p>
+        <div id="carrito">
+            <table id="tabla-carrito">
+                <thead>
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="lista-carrito"></tbody>
+            </table>
+            <div id="carrito">
+                <div id="total-carrito" class="total-carrito"></div>
+            </div>
+            <a href="index.html" id="comprarButton" class="btn-2">Comprar</a>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="foot">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Integrantes</h3>
+                <ul>
+                    <li><a href="#">Daphnne Palacios</a></li>
+                    <li><a href="#">Melani Guevara</a></li>
+                    <li><a href="#">Fernando Hernandez</a></li>
+                    <li><a href="#">Jennifer Contreras</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Curso</h3>
+                <ul>
+                    <li><a href="#">Desarrollo Web</a></li>
+                    <li><a href="#">Ing. Leonel Arrecis</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="scripcompra.js"></script>
+
+</body>
+
+</html>
